@@ -101,7 +101,7 @@ export default function Sidebar({
       <div className="md:hidden bg-organic-sand text-organic-forest p-4 flex items-center justify-between border-b border-organic-clay sticky top-0 z-50">
         <div className="flex items-center space-x-2">
           <Leaf className="h-6 w-6 text-organic-green" />
-          <span className="font-serif font-bold text-lg tracking-tight italic">AgriTurnkey</span>
+          <span className="font-serif font-bold text-lg tracking-tight italic">integrated agribusiness</span>
         </div>
         <div className="flex items-center space-x-3">
           <span className={`text-[10px] px-2 py-0.5 rounded-full border ${currentStepInfo.color}`}>
@@ -136,7 +136,7 @@ export default function Sidebar({
               <Leaf className="h-7 w-7 text-organic-green" />
             </div>
             <div>
-              <span className="font-serif font-extrabold text-2xl tracking-tight text-organic-forest block italic">AgriTurnkey</span>
+              <span className="font-serif font-extrabold text-2xl tracking-tight text-organic-forest block italic">integrated agribusiness</span>
               <span className="text-[10px] font-mono text-organic-earth tracking-wider uppercase font-semibold">Turnkey Farming Platform</span>
             </div>
           </div>
@@ -233,7 +233,7 @@ export default function Sidebar({
             </span>
           </div>
           <div className="flex items-center justify-between">
-            <span className="text-[10px] text-stone-500 font-sans">AgriTurnkey Console</span>
+            <span className="text-[10px] text-stone-500 font-sans">integrated agribusiness Console</span>
             <span className="text-[10px] text-organic-earth font-mono font-bold">v1.4.2</span>
           </div>
         </div>

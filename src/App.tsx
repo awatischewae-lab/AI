@@ -48,7 +48,7 @@ export default function App() {
   const [isMobileOpen, setIsMobileOpen] = useState<boolean>(false);
   const [showNotifications, setShowNotifications] = useState<boolean>(false);
   const [notiList, setNotiList] = useState<string[]>([
-    'คุณสมเกียรติ ยินดีต้อนรับเข้าสู่อ้อมอกครอบครัว AgriTurnkey ครับ!',
+    'คุณสมเกียรติ ยินดีต้อนรับเข้าสู่อ้อมอกครอบครัว integrated agribusiness ครับ!',
     'ระบบสำรวจสภาพดินอัตโนมัติ (pH: 6.4) ตรวจพบสารอาหารครบถ้วนตามเกณฑ์',
     'แผนการปลูกเมลอนรอบพิเศษถูกจองเข้าล็อกเรียบร้อย รอนัดหมายลงแปลงครับ'
   ]);
@@ -305,7 +305,7 @@ export default function App() {
 
         {/* Global sticky footer feedback helper */}
         <footer className="bg-organic-sand border-t border-organic-clay py-4.5 px-8 text-center text-xs text-stone-500 font-sans mt-auto">
-          <p>© 2026 AgriTurnkey International. นวัตกรรมเกษตรยุคใหม่ ยกระดับชีวิตผู้ร่วมอุดมการณ์และคนรักครอบครัว AgriTurnkey แบบยั่งยืน</p>
+          <p>© 2026 integrated agribusiness International. นวัตกรรมเกษตรยุคใหม่ ยกระดับชีวิตผู้ร่วมอุดมการณ์และคนรักครอบครัว integrated agribusiness แบบยั่งยืน</p>
         </footer>
 
       </main>

@@ -64,7 +64,7 @@ export default function AssessmentStep({
       },
       waterAccess: `เชื่อมขนานแหล่งน้ำธรรมชาติจังหวัด ${land.province} ระยะทาง 200 เมตร มีระบบพุ่มน้ำค้ำชูพร้อมบ่อพักขุดเจาะความลึก 4.5 เมตร`,
       expertRecommendation: `ผลทดสอบพื้นที่ ${land.district} ${land.province} โดดเด่นความหนาแน่นสารอินทรีย์ ดินเป็นดินร่วนทรายมีกรดอ่อน pH ${soilPH} เหมาะสมมากกับ "เมลอนญี่ปุ่น" และ "มะเขือเทศสลัดพรีเมียม" อัตราผลผลิตรอดมาตรฐาน QC กว่า 88%`,
-      assessedBy: 'ดร. นงนุช รักสะอาด (หัวหน้าทีมเกษตรวิชาการ AgriTurnkey)'
+      assessedBy: 'ดร. นงนุช รักสะอาด (หัวหน้าทีมเกษตรวิชาการ integrated agribusiness)'
     });
   };
 
@@ -305,7 +305,7 @@ export default function AssessmentStep({
               <div className="max-w-md space-y-1.5">
                 <p className="text-base font-serif font-bold text-organic-forest italic">รอยืนยันนัดหมายเพื่อจัดเตรียมรายงาน</p>
                 <p className="text-xs text-stone-400 leading-relaxed">
-                  เมื่อคุณดำเนินการสมัครข้อมูลที่ดินเสร็จเรียบร้อย ให้กรอกวันเวลาที่ทางโดรนเก็บแลป AgriTurnkey เข้าตรวจสอบ จากนั้นกดปุ่ม "ยืนยันนัดหมาย" และจำลองการส่งรายงานตรวจสภาพสารอาหารดินได้ทันทีครับ
+                  เมื่อคุณดำเนินการสมัครข้อมูลที่ดินเสร็จเรียบร้อย ให้กรอกวันเวลาที่ทางโดรนเก็บแลป integrated agribusiness เข้าตรวจสอบ จากนั้นกดปุ่ม "ยืนยันนัดหมาย" และจำลองการส่งรายงานตรวจสภาพสารอาหารดินได้ทันทีครับ
                 </p>
               </div>
             </div>

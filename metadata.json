@@ -1,5 +1,5 @@
 {
-  "name": "AgriTurnkey",
+  "name": "integrated agribusiness",
   "description": "เเพลตฟอร์มบริหารจัดการฟาร์มแบบ Turnkey ครบวงจรสำหรับคนอยากลงทุนหรือมีที่ดินปล่อยว่าง",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

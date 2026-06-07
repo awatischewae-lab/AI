@@ -161,7 +161,7 @@ export default function RegistrationStep({
             แก้ปัญหายอดฮิตคนอยากทําเกษตรแต่ <span className="text-organic-light-green underline decoration-wavy decoration-organic-earth/35">ขาดความรู้ / ไม่มีเวลา</span>
           </h1>
           <p className="text-[#DFDCCF] text-sm sm:text-base leading-relaxed">
-            AgriTurnkey คือผู้ช่วยมืออาชีพ คู่อาสาเปลี่ยนทรัพยากรว่างเปล่าเป็นรายรับ 
+            integrated agribusiness คือผู้ช่วยมืออาชีพ คู่อาสาเปลี่ยนทรัพยากรว่างเปล่าเป็นรายรับ 
             บริหารจัดการฟาร์มด้วยเทคโนโลยี IoT และ AI ตรวจดิน ดูสภาพน้ำ ปลูกพืชพรีเมียม 
             พร้อมสัญญารับซื้อปันผลแบบแชร์กำไร โปร่งใส ตรวจสอบความคืบหน้าได้ตลอด 24 ชั่วโมง
           </p>

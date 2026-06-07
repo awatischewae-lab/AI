@@ -110,7 +110,7 @@ export const INITIAL_STATE: AgriTurnkeyState = {
     },
     waterAccess: 'พร้อมใช้งานลำตะคองตอนล่างระยะทาง 150 เมตร มีบ่อน้ำสำรองในแปลง',
     expertRecommendation: 'ดินมีสมบัติทางกายภาพระบายน้ำได้ดี มีความอุดมสมบูรณ์ปานกลาง เหมาะสมอย่างยิ่งกับการทำโรงเรือนเมลอนญี่ปุ่นแบบควบคุมน้ำหยดและดินพรีเมียม จะช่วยเร่งหวานได้เหนือกว่าพืชประเภทอื่นๆ',
-    assessedBy: 'ดร. นงนุช รักสะอาด (หัวหน้าทีมเกษตรวิชาการ AgriTurnkey)'
+    assessedBy: 'ดร. นงนุช รักสะอาด (หัวหน้าทีมเกษตรวิชาการ integrated agribusiness)'
   },
   currentStep: 2, // 2: เพาะปลูก (Planting / Cultivation)
   weeklyUpdates: [
@@ -178,7 +178,7 @@ export const INITIAL_STATE: AgriTurnkeyState = {
       activity: 'ปรับปริมาณปุ๋ยโพแทสเซียมเร่งสร้างเนื้อหวาน',
       category: 'fertilizer',
       notes: 'ปรับสูตรอาหารผ่านแทงค์ควบคุมน้ำป้อนอัตโนมัติตามที่วิศวกรวิชาการออกแบบ วัดระดับ EC ในน้ำสม่ำเสมอ',
-      operator: 'ระบบควบคุมฟาร์มอัจฉริยะ AgriTurnkey AI'
+      operator: 'ระบบควบคุมฟาร์มอัจฉริยะ integrated agribusiness AI'
     },
     {
       id: 'log_4',

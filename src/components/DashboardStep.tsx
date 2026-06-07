@@ -74,7 +74,7 @@ export default function DashboardStep({
       activity: logActivity,
       category: logCategory,
       notes: 'บันทึกตามคำสั่งเร่งด่วนสั่งการของผู้ถือสัญญาร่วมทุน',
-      operator: 'ทีมงาน AgriTurnkey ประจำสวน'
+      operator: 'ทีมงาน integrated agribusiness ประจำสวน'
     };
 
     setFarmingLogs(prev => [newLog, ...prev]);

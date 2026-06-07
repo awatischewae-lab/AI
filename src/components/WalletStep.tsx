@@ -345,7 +345,7 @@ export default function WalletStep({
               
               <div className="flex justify-between text-[11px] bg-[#FDFCF8] p-3 rounded-2xl border border-organic-clay">
                 <span className="text-stone-550 flex flex-col">
-                  <strong>ส่วนระบบ AgriTurnkey ({platformSharePercent}%)</strong>
+                  <strong>ส่วนระบบ integrated agribusiness ({platformSharePercent}%)</strong>
                   <span className="text-[9px] text-[#7A5C3E] font-serif">ค่านายหน้าดูแลรักษาเซนเซอร์</span>
                 </span>
                 <span className="font-mono font-bold text-[#2C3E2D] text-right self-center">฿{platformProfitShare.toLocaleString()}</span>

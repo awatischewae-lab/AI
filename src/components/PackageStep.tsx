@@ -278,7 +278,7 @@ export default function PackageStep({
         {/* Contract Content Scroll Box */}
         <div className="bg-[#FDFCF8] border border-organic-clay rounded-2xl p-4 h-52 overflow-y-auto text-xs text-stone-600 leading-relaxed space-y-3 font-sans text-left">
           <p className="font-extrabold text-organic-forest text-center text-sm font-serif italic">สัญญาเป็นพันธมิตรผู้ดูแลและเพาะปลูกพืชเศรษฐกิจระดับพรีเมียม</p>
-          <p className="font-bold text-organic-earth">ทำขึ้น ณ สำนักงาน บจก. อะกรีเทิร์นคีย์ (แพลตฟอร์มวิจัยและนวัตกรรมเกษตรยุคใหม่)</p>
+          <p className="font-bold text-organic-earth">ทำขึ้น ณ สำนักงาน บจก. integrated agribusiness (แพลตฟอร์มวิจัยและนวัตกรรมเกษตรยุคใหม่)</p>
           
           <p>
             โดยสัญญานี้ คู่สัญญาทั้งสองฝ่าย ตกลงเข้าร่วมเป็นหุ้นส่วนเพาะปลูกในโครงการ <strong>{selectedCrop.name}</strong> 
@@ -288,7 +288,7 @@ export default function PackageStep({
           <p className="font-bold text-organic-earth">ข้อ 1. วัตถุประสงค์ของสัญญา</p>
           <p>
             ผู้ว่าจ้าง (เจ้าของที่ดินหรือผู้ลงทุนที่ได้รับการลงทะเบียนในระบบ) ยินยอมส่งมอบสิทธิ์ดูแลพื้นที่เพาะปลูกหรือจัดซื้อโรงเรือนปิดควบคุมอุณหภูมิความชื้น 
-            เพื่อให้ทาง แพลตฟอร์ม AgriTurnkey และเกษตรกรในเครือข่าย นำต้นกล้า เมล็ดพันธุ์คุณภาพสูง และทีมวิชาการเข้าเพาะปลูก ตรวจสอบ ดำเนินระบบน้ำ/ปุ๋ยอัจฉริยะ 
+            เพื่อให้ทาง แพลตฟอร์ม integrated agribusiness และเกษตรกรในเครือข่าย นำต้นกล้า เมล็ดพันธุ์คุณภาพสูง และทีมวิชาการเข้าเพาะปลูก ตรวจสอบ ดำเนินระบบน้ำ/ปุ๋ยอัจฉริยะ 
             และตัดแต่งทรงผลผลิตให้เป็นไปตามมาตรฐานสูงสุด
           </p>
 
@@ -296,13 +296,13 @@ export default function PackageStep({
           <p>
             คู่สัญญาทั้งสองฝ่าย ตนสัญญาตกลงปันส่วนรายได้จากการจัดจำหน่ายผลผลิตจริงหลังจากหักต้นทุนค่าน้ำ ค่าไฟ ค่าปุ๋ยอินทรีย์ และค่าดำเนินการดูแล 
             โดยแบ่งส่วนให้กับ <strong>ผู้ใช้บริการ (เจ้าของที่ดิน / ผู้ลงทุน) ในอัตราร้อยละ {selectedCrop.profitShareOwner}%</strong> และ 
-            <strong>แพลตฟอร์ม AgriTurnkey ในอัตราร้อยละ {selectedCrop.profitSharePlatform}%</strong> ของกำไรสุทธิทั้งหมด 
-            โดย AgriTurnkey จะเป็นผู้ติดต่อแบรนด์พันธมิตรรับซื้อ (Gourmet Market, Lemon Farm, คู่ค้าส่งออกต่างประเทศ) เข้าขนส่งยกล็อตทันทีในสัปดาห์ที่เก็บเกี่ยวเสร็จสิ้น
+            <strong>แพลตฟอร์ม integrated agribusiness ในอัตราร้อยละ {selectedCrop.profitSharePlatform}%</strong> ของกำไรสุทธิทั้งหมด 
+            โดย integrated agribusiness จะเป็นผู้ติดต่อแบรนด์พันธมิตรรับซื้อ (Gourmet Market, Lemon Farm, คู่ค้าส่งออกต่างประเทศ) เข้าขนส่งยกล็อตทันทีในสัปดาห์ที่เก็บเกี่ยวเสร็จสิ้น
           </p>
 
           <p className="font-bold text-organic-earth">ข้อ 3. เทคโนโลยีและความโปร่งใส (IoT & Real-time Sensors)</p>
           <p>
-            ทาง AgriTurnkey สัญญาว่าจะติดตั้งเซนเซอร์ตรวจสอบความชื้น ความเป็นกรดด่างในดิน (Soil pH Meter), ระดับค่าปุ๋ยเคมีและอินทรีย์ (NPK Level), สัญญาณกล้อง CCTV 
+            ทาง integrated agribusiness สัญญาว่าจะติดตั้งเซนเซอร์ตรวจสอบความชื้น ความเป็นกรดด่างในดิน (Soil pH Meter), ระดับค่าปุ๋ยเคมีและอินทรีย์ (NPK Level), สัญญาณกล้อง CCTV 
             และอัปเดตรายงานบันทึกการดูแล (Farming Log) รายสัปดาห์ในโปรไฟล์แดชบอร์ดแก่ผู้ใช้บริการ เพื่อคงไว้ซึ่งความโปร่งใสในข้อมูลมากที่สุด
           </p>
 
@@ -416,7 +416,7 @@ export default function PackageStep({
                   className="h-4 w-4 text-organic-green border-organic-clay rounded focus:ring-organic-green mt-0.5 cursor-pointer"
                 />
                 <span className="text-xs text-stone-500 leading-relaxed text-left">
-                  ข้าพเจ้ายินยอมผูกพันตามข้อตกลงและเงื่อนไขของสัญญาบริหารจัดการฟาร์ม AgriTurnkey ทุกประการ โดยยอมรับว่าข้อมูลสำรวจดิน/น้ำ และค่าปันส่วนกำไร {selectedCrop.profitShareOwner}% นี้เป็นความสัตย์จริง
+                  ข้าพเจ้ายินยอมผูกพันตามข้อตกลงและเงื่อนไขของสัญญาบริหารจัดการฟาร์ม integrated agribusiness ทุกประการ โดยยอมรับว่าข้อมูลสำรวจดิน/น้ำ และค่าปันส่วนกำไร {selectedCrop.profitShareOwner}% นี้เป็นความสัตย์จริง
                 </span>
               </label>
 
@@ -446,7 +446,7 @@ export default function PackageStep({
             <div className="space-y-1.5 text-center">
               <p className="text-base font-serif font-bold text-organic-forest italic">เสร็จสิ้นขั้นตอนทำสัญญาอิเล็กทรอนิกส์แล้ว!</p>
               <p className="text-xs text-stone-550">
-                ระบบได้บันทึกเอกสาร <strong>AgriTurnkey-Contract-{selectedCrop.id.toUpperCase()}-01</strong> 
+                ระบบได้บันทึกเอกสาร <strong>integrated-agribusiness-Contract-{selectedCrop.id.toUpperCase()}-01</strong> 
                 ลงลายมือชื่อโดย <span className="font-bold text-organic-green">{contract.signedName}</span> เมื่อวันที่ {contract.signedDate} เรียบร้อยแล้ว
               </p>
             </div>
